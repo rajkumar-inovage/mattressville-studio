@@ -6,16 +6,9 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 // We import object and document schemas
 import siteSettings from './siteSettings';
 import blockContent from './blockContent';
-//import crewMember from './crewMember';
-//import castMember from './castMember';
-////import movie from './movie';
-//import person from './person';
-//import screening from './screening';
-//import plotSummary from './plotSummary';
 import hero from './hero';
 import callToAction from './callToAction';
 import textWithIllustration from './textWithIllustration';
-//import plotSummaries from './plotSummaries';
 import page from './page';
 import headerOfferText from './headerOfferText';
 import homePageBannerSlider from './homePageBannerSlider';
@@ -37,9 +30,6 @@ export default createSchema({
     // in the studio.
     siteSettings,
     page,
-    //movie,
-    //person,
-    //screening,
     headerOfferText,
     homePageBannerSlider,
     homeBannerSidebar,
@@ -50,13 +40,9 @@ export default createSchema({
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
-    //plotSummary,
     hero,
     callToAction,
     textWithIllustration,
-    //plotSummaries,
-    //castMember,
-    //crewMember,
     brandLogo,
   ]),
 });
