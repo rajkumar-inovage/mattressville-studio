@@ -19,6 +19,16 @@ import homeShopbyCategories from './homeShopbyCategories';
 import testimonials from './testimonials';
 import brandLogo from './brandLogo';
 import brands from './brands';
+import stylestypes from './header/object/stylesTypes';
+import brandmenu from './header/object/brandMenu';
+import shopbybudget from './header/object/shopByBudget';
+import sizesmenu from './header/object/sizesMenu';
+import firmnessmenu from './header/object/firmnessMenu';
+import couponanddeals from './header/object/couponAndDeals';
+import mainmenu from './header/object/mainMenu';
+import subMenu from './header/object/subMenu';
+import menuItems from './header/object/menuItems';
+import megaMenu from './header/object/megaMenu';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -46,5 +56,15 @@ export default createSchema({
     callToAction,
     textWithIllustration,
     brandLogo,
+    stylestypes,
+    brandmenu,
+    shopbybudget,
+    sizesmenu,
+    firmnessmenu,
+    couponanddeals,
+    mainmenu,
+    subMenu,
+    menuItems,
+    megaMenu,
   ]),
 });

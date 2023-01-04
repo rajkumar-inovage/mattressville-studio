@@ -55,5 +55,62 @@ export default {
       title: 'Free Shipping Over',
       type: 'string',
     },
+    {
+      title: 'Main Menu',
+      name: 'mainMenu',
+      type: 'array',
+      of: [
+        { type: 'mainmenu' }
+      ]
+    },
+    {
+      title: 'Styles Type Menu',
+      name: 'styletypesmenu',
+      type: 'array',
+      of: [
+        { type: 'stylestypes' }
+      ]
+    },
+    {
+      title: 'Brands Menu',
+      name: 'brandsmenu',
+      type: 'array',
+      of: [
+        { type: 'brandmenu' }
+      ]
+    },
+    {
+      title: 'Shop by Budget Menu',
+      name: 'shopbybudgetmenu',
+      type: 'array',
+      of: [
+        { type: 'shopbybudget' }
+      ]
+    },
+    {
+      title: 'Sizes Menu',
+      name: 'sizemenu',
+      type: 'array',
+      of: [
+        { type: 'sizesmenu' }
+      ]
+    },
+    {
+      title: 'Firmness Menu',
+      name: 'firmness',
+      type: 'array',
+      of: [
+        { type: 'firmnessmenu' }
+      ]
+    },
+    {
+      title: 'Coupon & Deals Menu',
+      name: 'coupondeals',
+      type: 'array',
+      of: [
+        { type: 'couponanddeals' }
+      ]
+    },
+    
   ],
 };
