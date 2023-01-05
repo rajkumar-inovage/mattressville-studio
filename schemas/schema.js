@@ -18,17 +18,23 @@ import homePageTopCategory from './homePageTopCategory';
 import homeShopbyCategories from './homeShopbyCategories';
 import testimonials from './testimonials';
 import brandLogo from './brandLogo';
-import brands from './brands';
-import stylestypes from './header/object/stylesTypes';
-import brandmenu from './header/object/brandMenu';
-import shopbybudget from './header/object/shopByBudget';
-import sizesmenu from './header/object/sizesMenu';
-import firmnessmenu from './header/object/firmnessMenu';
-import couponanddeals from './header/object/couponAndDeals';
+import brand from './brands';
 import mainmenu from './header/object/mainMenu';
 import subMenu from './header/object/subMenu';
 import menuItems from './header/object/menuItems';
 import megaMenu from './header/object/megaMenu';
+import topFooter from './footer/object/topFooter';
+import about from './footer/object/about';
+import brandType from './footer/object/brandType';
+import brands from './footer/object/brands';
+import stylesTypes from './footer/object/stylesTypes';
+import styleType from './footer/object/styleType';
+import location from './footer/object/location';
+import areas from './footer/object/areas';
+import menu from './footer/object/menu';
+import bottomFooter from './footer/object/bottomFooter';
+import socialMedia from './footer/object/socialMedia';
+import paySafe from './footer/object/paySafe';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -44,7 +50,7 @@ export default createSchema({
     headerOfferText,
     homePageBannerSlider,
     homeBannerSidebar,
-    brands,
+    brand,
     homePageTopCategory,
     homeShopbyCategories,
     testimonials,
@@ -56,15 +62,21 @@ export default createSchema({
     callToAction,
     textWithIllustration,
     brandLogo,
-    stylestypes,
-    brandmenu,
-    shopbybudget,
-    sizesmenu,
-    firmnessmenu,
-    couponanddeals,
     mainmenu,
     subMenu,
     menuItems,
     megaMenu,
+    topFooter,
+    about,
+    brandType,
+    brands,
+    stylesTypes,
+    styleType,
+    location,
+    areas,
+    bottomFooter,
+    menu,
+    paySafe,
+    socialMedia,
   ]),
 });

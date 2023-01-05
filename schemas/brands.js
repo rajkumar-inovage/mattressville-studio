@@ -1,6 +1,6 @@
 import { MdBrandingWatermark as icon } from 'react-icons/md';
 export default {
-  name: 'brands',
+  name: 'brand',
   title: 'Home Page Brands',
   type: 'document',
   icon,
