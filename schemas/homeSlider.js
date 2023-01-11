@@ -1,13 +1,13 @@
 import { MdSlideshow as icon } from 'react-icons/md';
 
 export default {
-  name: 'homePageBannerSlider',
-  type: 'document',
+  name: 'homeSlider',
+  type: 'object',
   title: 'Home Page Banner Slider',
   icon,
   fields: [
     {
-      name: 'slidertitle',
+      name: 'title',
       type: 'string',
       title: 'Slider Title',
     },
@@ -17,13 +17,13 @@ export default {
       title: 'Tagline',
     },
     {
-      name: 'bannerLink',
+      name: 'link',
       type: 'string',
       title: 'Banner Link',
     },
     {
-      name: 'poster',
-      title: 'Poster Image',
+      name: 'image',
+      title: 'Slider Image',
       type: 'image',
       options: {
         hotspot: true,
@@ -31,6 +31,6 @@ export default {
     },
   ],
   preview: {
-    select: { title: 'slidertitle', media: 'poster' },
+    select: { title: 'title', media: 'image' },
   },
 };

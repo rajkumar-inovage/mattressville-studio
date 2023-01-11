@@ -1,9 +1,9 @@
 import { MdViewModule as icon } from 'react-icons/md';
 
 export default {
-  name: 'homePageTopCategory',
-  title: 'Home Page Top Categories',
-  type: 'document',
+  name: 'salesandDeals',
+  title: 'Sales and Deals',
+  type: 'object',
   icon,
   fields: [
     {

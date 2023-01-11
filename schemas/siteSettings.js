@@ -14,12 +14,9 @@ export default {
       type: 'text',
     },
     {
-      name: 'logo',
-      title: 'Site Logo',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
+      name: 'topHeader',
+      type: 'topHeader',
+      title:'Top Header'
     },
     {
       title: 'Social Icons',
@@ -64,14 +61,19 @@ export default {
       ]
     },
     {
-      title: 'Footer',
+      title: 'Desktop Top Footer',
       name: 'footer',
       type: 'topFooter',
     },
     {
-      title: 'Bottom Footer',
+      title: 'Desktop Bottom Footer',
       name: 'bottomFooter',
       type: 'bottomFooter',
+    },
+    {
+      title: 'Tablet Footer',
+      name: 'tabletFooter',
+      type: 'tabletFooter',
     }
   ],
 };

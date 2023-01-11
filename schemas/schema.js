@@ -12,15 +12,18 @@ import callToAction from './callToAction';
 import textWithIllustration from './textWithIllustration';
 import page from './page';
 import headerOfferText from './headerOfferText';
-import homePageBannerSlider from './homePageBannerSlider';
+import homeSlider from './homeSlider';
 import homeBannerSidebar from './homeBannerSidebar';
-import homePageTopCategory from './homePageTopCategory';
+import salesandDeals from './salesandDeals';
+import categorySlider from './categorySlider';
+import brandSlider from './brandSlider';
 import homeShopbyCategories from './homeShopbyCategories';
 import testimonials from './testimonials';
 import brandLogo from './brandLogo';
 import brand from './brands';
 import mainmenu from './header/object/mainMenu';
 import subMenu from './header/object/subMenu';
+import topHeader from './header/object/topHeader';
 import menuItems from './header/object/menuItems';
 import megaMenu from './header/object/megaMenu';
 import topFooter from './footer/object/topFooter';
@@ -35,6 +38,19 @@ import menu from './footer/object/menu';
 import bottomFooter from './footer/object/bottomFooter';
 import socialMedia from './footer/object/socialMedia';
 import paySafe from './footer/object/paySafe';
+import tabletAbout from './footer/object/tablet/tabletAbout';
+import accordionData from './footer/object/tablet/accordionData';
+import brandsmenu from './footer/object/tablet/brandsmenu';
+import brandTypemenu from './footer/object/tablet/brandTypemenu';
+import locationmenu from './footer/object/tablet/locationmenu';
+import stylesTypesmenu from './footer/object/tablet/stylesTypesmenu';
+import styleTypemenu from './footer/object/tablet/styleTypemenu';
+import tabletFooter from './footer/object/tablet/tabletFooter';
+import menues from './footer/object/tablet/menues';
+import bannerSidebar from './bannerSidebar'
+import homepageData from './homepageData';
+import testimonialsData from './testimonialsData'
+
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -48,12 +64,14 @@ export default createSchema({
     siteSettings,
     page,
     headerOfferText,
-    homePageBannerSlider,
+    homeSlider,
     homeBannerSidebar,
     brand,
-    homePageTopCategory,
+    salesandDeals,
     homeShopbyCategories,
     testimonials,
+    categorySlider,
+    brandSlider,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
@@ -78,5 +96,18 @@ export default createSchema({
     menu,
     paySafe,
     socialMedia,
+    accordionData,
+    tabletAbout,
+    brandsmenu,
+    brandTypemenu,
+    locationmenu,
+    stylesTypesmenu,
+    styleTypemenu,
+    tabletFooter,
+    menues,
+    topHeader,
+    bannerSidebar,
+    homepageData,
+    testimonialsData
   ]),
 });
