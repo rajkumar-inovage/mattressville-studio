@@ -49,6 +49,21 @@ export default {
       name: 'testimonials',
       title: 'Testimoials Section data',
       type:'testimonialsData'
+    },
+    {
+      name: 'offerData',
+      title: 'News Letter Data',
+      type:'newsletter'
+    },
+    {
+      name: 'trendingEntry',
+      title: 'Trending Products Entry',
+      type: 'trendingEntry'
+    },
+    {
+      name: 'dealsEntry',
+      title: 'Deals Products Entry',
+      type: 'dealsEntry'
     }
   ],
 };

@@ -50,6 +50,10 @@ import menues from './footer/object/tablet/menues';
 import bannerSidebar from './bannerSidebar'
 import homepageData from './homepageData';
 import testimonialsData from './testimonialsData'
+import newsletter from './newsletter'
+import explore from './homepage/explore'
+import trendingEntry from './homepage/trendingEntry'
+import dealsEntry from './homepage/dealsEntry'
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -108,6 +112,10 @@ export default createSchema({
     topHeader,
     bannerSidebar,
     homepageData,
-    testimonialsData
+    testimonialsData,
+    newsletter,
+    explore,
+    dealsEntry,
+    trendingEntry
   ]),
 });
