@@ -13,14 +13,14 @@ import textWithIllustration from './textWithIllustration';
 import page from './page';
 import headerOfferText from './headerOfferText';
 import homeSlider from './homeSlider';
-import homeBannerSidebar from './homeBannerSidebar';
+//import homeBannerSidebar from './homeBannerSidebar';
 import salesandDeals from './salesandDeals';
 import categorySlider from './categorySlider';
 import brandSlider from './brandSlider';
-import homeShopbyCategories from './homeShopbyCategories';
+//import homeShopbyCategories from './homeShopbyCategories';
 import testimonials from './testimonials';
 import brandLogo from './brandLogo';
-import brand from './brands';
+//import brand from './brands';
 import mainmenu from './header/object/mainMenu';
 import subMenu from './header/object/subMenu';
 import topHeader from './header/object/topHeader';
@@ -54,6 +54,8 @@ import newsletter from './newsletter'
 import explore from './homepage/explore'
 import trendingEntry from './homepage/trendingEntry'
 import dealsEntry from './homepage/dealsEntry'
+import blog from './blogs/blog'
+import category from './blogs/category'
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -66,13 +68,15 @@ export default createSchema({
     // The following are document types which will appear
     // in the studio.
     siteSettings,
-    page,
     headerOfferText,
+    page,
+    blog,
+    category,
+    //homeBannerSidebar,
+    //brand,
     homeSlider,
-    homeBannerSidebar,
-    brand,
     salesandDeals,
-    homeShopbyCategories,
+    //homeShopbyCategories,
     testimonials,
     categorySlider,
     brandSlider,

@@ -1,7 +1,9 @@
+import { MdPages as icon } from 'react-icons/md';
 export default {
   name: 'page',
   type: 'document',
   title: 'Page',
+  icon,
   fields: [
     {
       name: 'title',

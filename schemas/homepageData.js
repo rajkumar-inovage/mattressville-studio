@@ -1,7 +1,9 @@
+import { MdHome as icon } from 'react-icons/md';
 export default {
   title: "Home Page Data",
   name: "homepageData",
   type: "document",
+  icon,
   __experimental_actions: [/*'create',*/ "update", /*'delete',*/ "publish"],
   fields: [
     {
