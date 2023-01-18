@@ -7,7 +7,7 @@ export default {
   fields: [
     {
       name: 'title',
-      title: 'Blog Title',
+      title: 'Title',
       type: 'string',
     },
     {
@@ -20,20 +20,9 @@ export default {
       },
     },
     {
-      name: 'metatitle',
-      title: 'Meta Title',
-      type: 'string',
-    },
-    {
-      title: 'Meta Description', 
-      name: 'content',
-      type: 'array', 
-      of: [{type: 'block'}]
-    },
-    {
-      title: 'Published At',
-      name: 'publishat',
-      type: 'datetime'
+      name: 'description',
+      title: 'Description',
+      type: 'blockContent',
     },
     {
       title: 'Category Image',

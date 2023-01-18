@@ -58,6 +58,7 @@ import blog from './blogs/blog'
 import category from './blogs/category'
 import coupons from './coupons'
 import tags from './tags'
+import flyerPageContent from './flyerPageContent'
 import flyers from './flyers'
 
 
@@ -126,6 +127,8 @@ export default createSchema({
     dealsEntry,
     trendingEntry,
     tags,
-    flyers
+    flyerPageContent,
+    flyers,
+    
   ]),
 });

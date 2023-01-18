@@ -11,6 +11,20 @@ export default {
       type: 'string',
     },
     {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'title',
+        maxLength: 200,
+      },
+    },
+    {
+      title: 'Published At',
+      name: 'publishedAt',
+      type: 'datetime'
+    },
+    {
       name: 'description',
       title: 'Content',
       type: 'blockContent',
@@ -36,6 +50,16 @@ export default {
         {
           type: 'reference',
           to:[{type:'tags'}]
+        }
+      ]
+    },
+    {
+      name: 'category',
+      title: 'Category',
+      type: 'reference',
+      to: [
+        {
+          type: 'category'
         }
       ]
     },
