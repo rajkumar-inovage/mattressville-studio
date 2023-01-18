@@ -56,6 +56,9 @@ import trendingEntry from './homepage/trendingEntry'
 import dealsEntry from './homepage/dealsEntry'
 import blog from './blogs/blog'
 import category from './blogs/category'
+import coupons from './coupons'
+import tags from './tags'
+import flyers from './flyers'
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -72,6 +75,7 @@ export default createSchema({
     page,
     blog,
     category,
+    coupons,
     //homeBannerSidebar,
     //brand,
     homeSlider,
@@ -120,6 +124,8 @@ export default createSchema({
     newsletter,
     explore,
     dealsEntry,
-    trendingEntry
+    trendingEntry,
+    tags,
+    flyers
   ]),
 });
