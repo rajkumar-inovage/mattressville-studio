@@ -44,6 +44,14 @@ export default {
       name: 'canadaflyerbtnLink',
       type: 'string',
       title:'Canada Flyer Button Link'
+    },
+    {
+      name: 'cta',
+      title: 'Flyer CTA Content',
+      type: 'array',
+      of: [
+        {type:'flyercta'}
+      ]
     }
   ],
   preview: {
