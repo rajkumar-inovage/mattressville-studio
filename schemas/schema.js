@@ -61,6 +61,8 @@ import tags from './tags'
 import flyerPageContent from './flyerPageContent'
 import flyers from './flyers'
 import flyercta from './flyercta'
+import couponCategories from './coupons/couponCategories'
+import couponPageContent from './coupons/couponPageContent'
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -77,6 +79,7 @@ export default createSchema({
     page,
     blog,
     category,
+    couponPageContent,
     coupons,
     //homeBannerSidebar,
     //brand,
@@ -131,6 +134,7 @@ export default createSchema({
     flyerPageContent,
     flyers,
     flyercta,
+    couponCategories
     
   ]),
 });
