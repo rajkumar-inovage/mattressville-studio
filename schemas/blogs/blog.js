@@ -11,29 +11,28 @@ export default {
       type: 'string',
     },
     {
-      name: 'slug',
-      title: 'Slug',
+      name: 'handle',
+      title: 'Handle',
       type: 'slug',
       options: {
         source: 'title',
         maxLength: 200,
-      },
-    },
-    {
-      name: 'metatitle',
-      title: 'Meta Title',
-      type: 'string',
-    },
-    {
-      title: 'Meta Description', 
-      name: 'content',
-      type: 'array', 
-      of: [{type: 'block'}]
+      }
     },
     {
       title: 'Published At',
-      name: 'publishat',
+      name: 'publishedAt',
       type: 'datetime'
+    },
+    {
+      title: 'Description', 
+      name: 'content',
+      type: 'blockContent' 
+    },
+    {
+      title: 'Excerpt', 
+      name: 'excerpt',
+      type: 'blockContent' 
     },
     {
       title: 'featured Image',
@@ -44,15 +43,36 @@ export default {
       }
     },
 
+    
+     
+        {
+          name: 'blogcategory',
+          title: 'Category',
+          type: 'reference',
+          to: [
+            {
+              type:'blogCategory'
+            }
+          ]
+        },
+    {
+      title: 'Author',
+      name: 'author',
+      type: 'string'
+    },
+    {
+      name: 'tags',
+      title: 'Tags',
+      type: 'array',
+      of: [
+        {
+          type: 'string',
+        }
+      ]
+    },
+
   ],
   preview: {
-    select: {
-      title: 'title',
-    },
-    prepare(selection) {
-      return {
-        title: selection.title,
-      };
-    },
+    select: { title: 'title', media: 'image' },
   },
 };

@@ -1,8 +1,8 @@
 import { MdDashboard as icon } from 'react-icons/md';
 export default {
-  name: 'category',
+  name: 'blogCategory',
   type: 'document',
-  title: 'Categories',
+  title: 'Blog Category',
   icon,
   fields: [
     {
@@ -11,7 +11,7 @@ export default {
       type: 'string',
     },
     {
-      name: 'cathandle',
+      name: 'categoryhandle',
       title: 'Slug',
       type: 'slug',
       options: {

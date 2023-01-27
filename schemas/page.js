@@ -27,6 +27,12 @@ export default {
         { type: 'hero' },
         { type: 'textWithIllustration' },
         { type: 'callToAction' },
+        {
+          type:'whyMVseoData'
+        },
+        {
+          type:'whyMVmainData'
+        }
       ],
     },
   ],

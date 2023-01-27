@@ -55,7 +55,9 @@ import explore from './homepage/explore'
 import trendingEntry from './homepage/trendingEntry'
 import dealsEntry from './homepage/dealsEntry'
 import blog from './blogs/blog'
+import blogPageContent from './blogs/blogPageContent'
 import category from './blogs/category'
+import blogCategory from './blogs/blogCategory'
 import coupons from './coupons'
 import tags from './tags'
 import flyerPageContent from './flyerPageContent'
@@ -63,6 +65,19 @@ import flyers from './flyers'
 import flyercta from './flyercta'
 import couponCategories from './coupons/couponCategories'
 import couponPageContent from './coupons/couponPageContent'
+import blogmainData from './blogs/blogmainData'
+import blogSeoData from './blogs/blogSeoData'
+import blogSocialIcon from './blogs/blogSocialIcon'
+import whyMVmainData from './pages/whyMattressville/whyMVmainData'
+import whyMVseoData from './pages/whyMattressville/whyMVseoData'
+import whyMVbannerSection from './pages/whyMattressville/whyMVbannerSection'
+import whyMViconset from './pages/whyMattressville/whyMViconset'
+import whyMVqualityMattressBrand from './pages/whyMattressville/whyMVqualityMattressBrand'
+import whyMVcards from './pages/whyMattressville/whyMVcards'
+import whyMVfaqs from './pages/whyMattressville/whyMVfaqs'
+import whyreasonablePrices from './pages/whyMattressville/whyreasonablePrices'
+import whyMVretailers from './pages/whyMattressville/whyMVretailers'
+
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -78,7 +93,9 @@ export default createSchema({
     headerOfferText,
     page,
     blog,
+    blogPageContent,
     category,
+    blogCategory,
     couponPageContent,
     coupons,
     //homeBannerSidebar,
@@ -134,7 +151,18 @@ export default createSchema({
     flyerPageContent,
     flyers,
     flyercta,
-    couponCategories
-    
+    couponCategories,
+    blogmainData,
+    blogSeoData,
+    blogSocialIcon,
+    whyMVseoData,
+    whyMVmainData,
+    whyMVbannerSection,
+    whyMViconset,
+    whyMVqualityMattressBrand,
+    whyMVcards,
+    whyMVfaqs,
+    whyreasonablePrices,
+    whyMVretailers
   ]),
 });
