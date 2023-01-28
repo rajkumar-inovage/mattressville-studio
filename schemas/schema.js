@@ -77,6 +77,11 @@ import whyMVcards from './pages/whyMattressville/whyMVcards'
 import whyMVfaqs from './pages/whyMattressville/whyMVfaqs'
 import whyreasonablePrices from './pages/whyMattressville/whyreasonablePrices'
 import whyMVretailers from './pages/whyMattressville/whyMVretailers'
+import whyMVmattressville from './pages/whyMattressville/whyMVmattressville'
+import whyMVoutletStores from './pages/whyMattressville/whyMVoutletStores'
+import whyMVbusinessStrategy from './pages/whyMattressville/whyMVbusinessStrategy'
+import strategyCards from './pages/whyMattressville/strategyCards'
+import totalSaving from './pages/whyMattressville/totalSaving'
 
 
 
@@ -163,6 +168,11 @@ export default createSchema({
     whyMVcards,
     whyMVfaqs,
     whyreasonablePrices,
-    whyMVretailers
+    whyMVretailers,
+    whyMVmattressville,
+    whyMVoutletStores,
+    whyMVbusinessStrategy,
+    strategyCards,
+    totalSaving
   ]),
 });

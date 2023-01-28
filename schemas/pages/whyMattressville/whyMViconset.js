@@ -21,7 +21,7 @@ export default {
     {
       name: 'text2',
       type: 'blockContent',
-      title:'Text 1'
+      title:'Text 2'
     },
     {
       name: 'icon3',
@@ -41,7 +41,7 @@ export default {
     {
       name: 'text4',
       type: 'blockContent',
-      title:'Text 1'
+      title:'Text 4'
     },
   ]
 }

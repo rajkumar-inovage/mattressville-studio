@@ -17,6 +17,16 @@ export default {
       name: 'retailers',
       title: 'Retailers',
       type:'whyMVretailers'
+    },
+    {
+      name: 'mattressVille',
+      title: 'Mattressville',
+      type:'whyMVmattressville'
+    },
+    {
+      name: 'outletStores',
+      title: 'Outlet Stores',
+      type:'whyMVoutletStores'
     }
   ]
 }

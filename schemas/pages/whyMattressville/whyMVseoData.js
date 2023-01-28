@@ -20,6 +20,10 @@ export default {
     }
   ],
   preview: {
-    select: { title: 'title'}
+    prepare() {
+      return {
+        title: "SEO Data",
+      };
+    },
   },
 }
