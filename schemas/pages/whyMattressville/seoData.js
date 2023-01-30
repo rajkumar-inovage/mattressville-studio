@@ -1,6 +1,6 @@
 export default {
-  name: 'whyMVseoData',
-  title: 'Why MV SEO Data',
+  name: 'seoData',
+  title: 'SEO Data',
   type: 'object',
   fields: [
     {

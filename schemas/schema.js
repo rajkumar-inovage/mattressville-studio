@@ -69,7 +69,7 @@ import blogmainData from './blogs/blogmainData'
 import blogSeoData from './blogs/blogSeoData'
 import blogSocialIcon from './blogs/blogSocialIcon'
 import whyMVmainData from './pages/whyMattressville/whyMVmainData'
-import whyMVseoData from './pages/whyMattressville/whyMVseoData'
+import seoData from './pages/whyMattressville/seoData'
 import whyMVbannerSection from './pages/whyMattressville/whyMVbannerSection'
 import whyMViconset from './pages/whyMattressville/whyMViconset'
 import whyMVqualityMattressBrand from './pages/whyMattressville/whyMVqualityMattressBrand'
@@ -82,8 +82,17 @@ import whyMVoutletStores from './pages/whyMattressville/whyMVoutletStores'
 import whyMVbusinessStrategy from './pages/whyMattressville/whyMVbusinessStrategy'
 import strategyCards from './pages/whyMattressville/strategyCards'
 import totalSaving from './pages/whyMattressville/totalSaving'
-
-
+import mattressGuideData from './pages/mattressFoundation/mattressGuideData'
+import mattressFoundation from './pages/mattressFoundation/mattressFoundation'
+import mattressSizes from './pages/mattressBuyingGuide/mattressSizes'
+import rightmattress from './pages/choosingTheRightMattress/rightmattress'
+import innerspring from './pages/choosingTheRightMattress/innerspring'
+import latex from './pages/choosingTheRightMattress/latex'
+import memoryFoam from './pages/choosingTheRightMattress/memoryFoam'
+import pocketCoil from './pages/choosingTheRightMattress/pocketCoil'
+import sleepStyle from './pages/choosingTheRightMattress/sleepStyle'
+import pros from './pages/choosingTheRightMattress/pros'
+import cons from './pages/choosingTheRightMattress/cons'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -160,7 +169,7 @@ export default createSchema({
     blogmainData,
     blogSeoData,
     blogSocialIcon,
-    whyMVseoData,
+    seoData,
     whyMVmainData,
     whyMVbannerSection,
     whyMViconset,
@@ -173,6 +182,17 @@ export default createSchema({
     whyMVoutletStores,
     whyMVbusinessStrategy,
     strategyCards,
-    totalSaving
+    totalSaving,
+    mattressGuideData,
+    mattressFoundation,
+    mattressSizes,
+    rightmattress,
+    innerspring,
+    latex,
+    memoryFoam,
+    pocketCoil,
+    sleepStyle,
+    pros,
+    cons
   ]),
 });

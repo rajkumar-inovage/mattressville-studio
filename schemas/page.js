@@ -28,10 +28,19 @@ export default {
         { type: 'textWithIllustration' },
         { type: 'callToAction' },
         {
-          type:'whyMVseoData'
+          type:'seoData'
         },
         {
           type:'whyMVmainData'
+        },
+        {
+          type:'mattressGuideData'
+        },
+        {
+          type:'mattressSizes'
+        },
+        {
+          type:'rightmattress'
         }
       ],
     },
