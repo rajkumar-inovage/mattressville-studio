@@ -14,14 +14,24 @@ export default {
       type:'blockContent'
     },
     {
-      name: 'pros',
       title: 'Pros',
-      type:'pros'
+      name: 'pros',
+      type: 'array',
+      of: [
+        {
+          type:'pros'
+        }
+      ]
     },
     {
       name: 'cons',
       title: 'Cons',
-      type:'cons'
+      type: 'array',
+      of: [
+        {
+          type:'cons'
+        }
+      ]
     }
   ]
 }

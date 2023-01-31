@@ -85,7 +85,7 @@ import totalSaving from './pages/whyMattressville/totalSaving'
 import mattressGuideData from './pages/mattressFoundation/mattressGuideData'
 import mattressFoundation from './pages/mattressFoundation/mattressFoundation'
 import mattressSizes from './pages/mattressBuyingGuide/mattressSizes'
-import rightmattress from './pages/choosingTheRightMattress/rightmattress'
+import choosingrightmattress from './pages/choosingTheRightMattress/choosingrightmattress'
 import innerspring from './pages/choosingTheRightMattress/innerspring'
 import latex from './pages/choosingTheRightMattress/latex'
 import memoryFoam from './pages/choosingTheRightMattress/memoryFoam'
@@ -93,6 +93,7 @@ import pocketCoil from './pages/choosingTheRightMattress/pocketCoil'
 import sleepStyle from './pages/choosingTheRightMattress/sleepStyle'
 import pros from './pages/choosingTheRightMattress/pros'
 import cons from './pages/choosingTheRightMattress/cons'
+import rightmattress from './pages/choosingTheRightMattress/rightmattress'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -186,13 +187,14 @@ export default createSchema({
     mattressGuideData,
     mattressFoundation,
     mattressSizes,
-    rightmattress,
+    choosingrightmattress,
     innerspring,
     latex,
     memoryFoam,
     pocketCoil,
     sleepStyle,
     pros,
-    cons
+    cons,
+    rightmattress
   ]),
 });
