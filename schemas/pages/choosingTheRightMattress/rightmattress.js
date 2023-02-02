@@ -8,5 +8,12 @@ export default {
       title:'Choosing Right Mattresseds',
       type:'choosingrightmattress'
     }
-  ]
+  ],
+  preview: {
+    prepare() {
+      return {
+        title: "Choosing Right Mattress Data",
+      };
+    },
+  },
 }

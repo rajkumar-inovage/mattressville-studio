@@ -94,6 +94,12 @@ import sleepStyle from './pages/choosingTheRightMattress/sleepStyle'
 import pros from './pages/choosingTheRightMattress/pros'
 import cons from './pages/choosingTheRightMattress/cons'
 import rightmattress from './pages/choosingTheRightMattress/rightmattress'
+import pageContent from './pageContent'
+import CTA from './cta'
+import ctaSection from './ctaSection'
+import contactUsData from './pages/contact-us/contactUsData'
+import infoBlocks from './pages/contact-us/infoBlocks'
+
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -107,6 +113,7 @@ export default createSchema({
     siteSettings,
     headerOfferText,
     page,
+    ctaSection,
     blog,
     blogPageContent,
     category,
@@ -195,6 +202,10 @@ export default createSchema({
     sleepStyle,
     pros,
     cons,
-    rightmattress
+    rightmattress,
+    pageContent,
+    CTA,
+    infoBlocks,
+    contactUsData
   ]),
 });

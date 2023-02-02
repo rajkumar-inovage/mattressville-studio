@@ -20,13 +20,18 @@ export default {
       },
     },
     {
+      title: 'Published At',
+      name: 'updatedAt',
+      type: 'datetime'
+    },
+    {
       name: 'pageBuilder',
       type: 'array',
       title: 'Page builder',
       of: [
+      {type:'pageContent'},
         { type: 'hero' },
         { type: 'textWithIllustration' },
-        { type: 'callToAction' },
         {
           type:'seoData'
         },
@@ -41,6 +46,9 @@ export default {
         },
         {
           type:'rightmattress'
+        },
+        {
+          type:'contactUsData'
         }
       ],
     },
