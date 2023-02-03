@@ -5,12 +5,12 @@ export default {
   __experimental_actions: [/*'create',*/ "update", /*'delete',*/ "publish"],
   fields: [
     {
-      name: 'cta',
+      name: 'ctaContent',
       title: 'CTA Content',
     type: 'array',
     validation: Rule => Rule.required().max(2).error('You can add maximum 2 items'),
       of: [
-        {type:'CTA'}
+        {type:'ctaData'}
       ]
     }
   ],

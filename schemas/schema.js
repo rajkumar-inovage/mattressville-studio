@@ -95,10 +95,15 @@ import pros from './pages/choosingTheRightMattress/pros'
 import cons from './pages/choosingTheRightMattress/cons'
 import rightmattress from './pages/choosingTheRightMattress/rightmattress'
 import pageContent from './pageContent'
-import CTA from './cta'
+import ctaData from './ctaData'
 import ctaSection from './ctaSection'
 import contactUsData from './pages/contact-us/contactUsData'
 import infoBlocks from './pages/contact-us/infoBlocks'
+import matchMakerSeo from './pages/mattressMatchMaker/matchMakerSeo'
+import mattressMatchMakerData from './pages/mattressMatchMaker/mattressMatchMakerData'
+import matchMakerToolData from './pages/mattressMatchMaker/matchMakerToolData'
+import option from './pages/mattressMatchMaker/option'
+import matchMakerQuiz from './pages/mattressMatchMaker/matchMakerQuiz'
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -164,6 +169,7 @@ export default createSchema({
     topHeader,
     bannerSidebar,
     homepageData,
+    mattressMatchMakerData,
     testimonialsData,
     newsletter,
     explore,
@@ -204,8 +210,12 @@ export default createSchema({
     cons,
     rightmattress,
     pageContent,
-    CTA,
     infoBlocks,
-    contactUsData
+    ctaData,
+    contactUsData,
+    matchMakerSeo,
+    matchMakerToolData,
+    option,
+    matchMakerQuiz
   ]),
 });

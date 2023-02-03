@@ -1,5 +1,5 @@
 export default {
-  name: 'CTA',
+  name: 'ctaData',
   type: 'object',
   title: 'Call to Action',
   fields: [
