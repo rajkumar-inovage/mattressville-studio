@@ -35,6 +35,11 @@ export default {
       type: 'blockContent' 
     },
     {
+      title: 'SEO Description', 
+      name: 'seoDescription',
+      type: 'blockContent' 
+    },
+    {
       title: 'featured Image',
       name: 'image',
       type: 'image',
