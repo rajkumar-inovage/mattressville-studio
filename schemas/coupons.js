@@ -16,6 +16,11 @@ export default {
       type: 'string',
     },
     {
+      name: 'couponExpiry',
+      title: 'Coupon Expirey Date',
+      type:'datetime'
+    },
+    {
       name: 'description',
       title: 'Content',
       type: 'blockContent',
