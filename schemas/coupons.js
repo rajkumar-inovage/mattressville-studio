@@ -47,4 +47,4 @@ export default {
   preview: {
     select: { title: 'title', media: 'featureimage' },
   },
-};
+}
