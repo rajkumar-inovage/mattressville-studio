@@ -37,7 +37,7 @@ export default {
     },
     {
       name: 'entryDesc',
-      type: 'string',
+      type: 'blockContent',
       title:'Entry Description'
     },
     {
